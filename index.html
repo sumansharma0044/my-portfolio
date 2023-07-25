@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">SUMAN SHARMA</div>
+        <div class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Experience</a></li>
+            <li><a href="#about">Project</a></li>
+            <li><a href="#about">Contact</a></li>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">SUMAN SHARMA</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="/image/mine.png" alt="profilepic">
+        </div>
+        <div class="section-text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Suman Sharma</h1>
+            <p class="section_text_p2">Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./image/suman_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='/#contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <img src="/image/linkedin.png" alt="linkdin" class="icon" onclick="location.href ='https://www.linkedin.com/in/suman-sharma-0b2a37227/'">
+                <img src="/image/github.png" alt="github" class="icon" onclick="location.href ='https://github.com/sumansharma0044?tab=repositories'">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="/image/849.jpg" width="400px" height="450px" alt="profile picture" class="about-pic">
+            </div>
+            
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <img src="/image/businessman.png" width="50px" height="50px" alt="experience icon">
+                            <h3>Experirnce</h3>
+                            <p>Fresher<br> Student</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="/image/businessman.png" width="50px" height="50px" alt="experience icon">
+                            <h3>Education</h3>
+                            <p>MCA<br> B. Sc.</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p></p>
+                        
+                    </div>
+                </div>
+            
+        </div>
+        <img
+        src="./image/arrow.jpg" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+
+    </section> -->
+    <!-- --------------------- -->
+    
+    <!-- --------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
